@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/<your-username>/nginx-devops-pipeline.git'
+                git 'https://github.com/prasannacn08/Nginx-pipeline.git'
             }
         }
 
